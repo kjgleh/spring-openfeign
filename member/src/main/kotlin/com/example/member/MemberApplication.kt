@@ -1,11 +1,11 @@
-package com.example.server
+package com.example.member
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ServerApplication
+class MemberApplication
 
 fun main(args: Array<String>) {
-    runApplication<ServerApplication>(*args)
+    runApplication<MemberApplication>(*args)
 }

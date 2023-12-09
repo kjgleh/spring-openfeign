@@ -1,4 +1,4 @@
 rootProject.name = "spring-openfeign"
 
-include("server")
+include("member")
 include("client")

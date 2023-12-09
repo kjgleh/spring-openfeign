@@ -1,4 +1,4 @@
-package com.example.server
+package com.example.member
 
 data class MemberResponse(
     val id: Long,

@@ -1,4 +1,6 @@
-server.port: 8081
-
 host:
-  server: localhost:8080
+  member: localhost:8081
+
+logging:
+  level:
+    com.example.client.external: DEBUG

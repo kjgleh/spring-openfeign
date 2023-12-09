@@ -1,4 +1,4 @@
-package com.example.client.server.dto
+package com.example.client.external.dto
 
 data class MemberResponse(
     val id: Long,
