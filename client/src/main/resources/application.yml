@@ -1,6 +1,22 @@
+server:
+  tomcat:
+    connection-timeout: 30000
+
 host:
   member: localhost:8081
 
 logging:
   level:
     com.example.client.external: DEBUG
+
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          default:
+            connectTimeout: 1000
+            readTimeout: 10000
+            loggerLevel: full
+#          memberClient:
+#            readTimeout: 5000

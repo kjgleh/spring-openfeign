@@ -11,6 +11,7 @@ class MemberController {
     fun find(
         @PathVariable memberId: Long,
     ): MemberResponse {
+        Thread.sleep(8000)
         return MemberResponse(id = 1, name = "홍길동")
     }
 }
